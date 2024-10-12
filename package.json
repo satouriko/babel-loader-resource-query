@@ -1,0 +1,21 @@
+{
+  "name": "babel-loader-resource-query",
+  "version": "0.1.0",
+  "description": "babel-loader that passes filename including resourceQuery",
+  "repository": "https://github.com/satouriko/babel-loader-resource-query",
+  "main": "dist/index.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pnpm build"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-loader": ">= 8.0.3"
+  },
+  "devDependencies": {
+    "babel-loader": ">= 8.0.3",
+    "typescript": "^5.6.3",
+    "webpack": "^5.95.0"
+  }
+}
